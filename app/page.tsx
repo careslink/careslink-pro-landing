@@ -82,7 +82,7 @@ export default function Page() {
               </div>
               
               <p className="text-lg sm:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-                Empowering healthcare professionals to build exceptional global careers through world-class education, certification, and meaningful connections.
+              Join 200,000+ Healthcare Professionals Elevating their Skills and Building Global Careers with CaresLink.
               </p>
             </div>
             
@@ -163,10 +163,10 @@ export default function Page() {
               <span className="text-sm font-semibold text-blue-700">🌍 Global Career Pathways</span>
             </div>
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900">
-              Plan Your Global Healthcare Career
+            Plan Your Global Healthcare Career with CaresLink
         </h2>
             <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-              Navigate your path to international healthcare opportunities with expert guidance
+            We are here to help you advance your healthcare career globally-where your skills meet opportunities.
             </p>
           </motion.div>
           <CountryPaths />
@@ -211,11 +211,8 @@ export default function Page() {
               <span className="text-sm font-semibold text-green-700">📚 Education & Certification</span>
             </div>
             <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900">
-              Professional Development Programs
+            Essential Courses to Advance Your Global Healthcare Career
             </h2>
-            <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-              Internationally recognized certifications to advance your career
-            </p>
           </motion.div>
           <EssentialCourses />
           <HealthcareJobs />

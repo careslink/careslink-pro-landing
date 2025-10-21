@@ -114,10 +114,10 @@ export function AIAgentsSection() {
           <span className="text-sm font-semibold text-[#0092ec]">🤖 AI-Powered Intelligence</span>
         </div>
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-4">
-          Your Personal AI Career Assistants
+        From Exams to Employment -AI Has You Covered
         </h2>
         <p className="text-lg sm:text-xl text-gray-600 max-w-4xl mx-auto">
-          From visa interviews to job applications and exam prep, our AI agents help healthcare professionals succeed faster and smarter.
+        From visa interviews to job applications and exam prep, our Al agents are designed to help healthcare professionals succeed-faster, smarter, and with confidence.
         </p>
       </motion.div>
 

@@ -9,7 +9,7 @@ export function ProcessSection() {
       title: "Create your Account",
       subtitle: "Start Your Journey",
       description: "Sign up and build a professional profile. A complete profile helps you get noticed by potential employers.",
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed085dec6f0e8aba55967d_Create%20an%20account.png",
+      image: "./step_one.jpeg",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -22,7 +22,7 @@ export function ProcessSection() {
       title: "Explore Courses & Opportunities",
       subtitle: "Learn & Discover",
       description: "Browse certifications, continuous education, NCLEX training, and global job opportunities.",
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed083a224fecfbc67e0d3a_Explore%20Courses%20%26%20Opportunities.png",
+      image: "./step_two.jpg",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -35,7 +35,7 @@ export function ProcessSection() {
       title: "Connect and Grow",
       subtitle: "Achieve Success",
       description: "Engage with healthcare professionals, find jobs, and access visa sponsorship resources.",
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed08293b1af4d42e751c59_Connect%20and%20Grow.png",
+      image: "./step_three.jpg",
       icon: (
         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -70,10 +70,10 @@ export function ProcessSection() {
           <span className="text-sm font-semibold text-[#0092ec]">🚀 Simple Process</span>
         </div>
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-4">
-          Get Started in 3 Easy Steps
+        3 Step Process for Networking
         </h2>
         <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-          Join thousands of healthcare professionals who've transformed their careers with CaresLink
+        We have the quickest and easiest process that can help you to grow your network, get a job, and share the knowledge with the fellow health experts.
         </p>
       </motion.div>
 

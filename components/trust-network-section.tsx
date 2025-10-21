@@ -47,7 +47,7 @@ export function TrustNetworkSection() {
     <div>
       <div className="text-center mb-16">
         <h2 className="text-4xl sm:text-5xl font-semibold text-gray-900 mb-4">
-          Why 200,000+ Professionals Trust CaresLink
+        Why 200,000+ Healthcare Professionals Trust the CaresLink Network
         </h2>
         <a
           href="https://careslink.com/account-setup"

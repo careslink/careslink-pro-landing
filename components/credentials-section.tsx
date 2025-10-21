@@ -29,8 +29,7 @@ export function CredentialsSection() {
       x: 0,
       transition: {
         delay: i * 0.1,
-        duration: 0.5,
-        ease: "easeOut"
+        duration: 0.5
       }
     })
   }
@@ -45,7 +44,7 @@ export function CredentialsSection() {
         transition={{ duration: 0.6 }}
       >
         <h2 className="text-4xl sm:text-5xl font-semibold text-gray-900 mb-4">
-          Keep Your Credentials Ready
+        Keep Your Credentials Ready for Every Opportunity
         </h2>
         <p className="text-lg text-gray-600 max-w-3xl mx-auto">
           CaresLink makes it easy to stay organized and prepared for your next job opportunity.
