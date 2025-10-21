@@ -62,7 +62,12 @@ export default function Page() {
           <div className="max-w-5xl mx-auto">
             {/* Main Headline - Healthcare Professional */}
             <div className="text-center space-y-6 mb-12">
-              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-gray-900 tracking-tight">
+              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-gray-900 tracking-tight flex items-center justify-center gap-4">
+                <img 
+                  src="/careslink_small_logo.png" 
+                  alt="CaresLink" 
+                  className="h-12 sm:h-16 md:h-20 lg:h-24 w-auto"
+                />
                 <span className="text-[#0092ec]">
                   CaresLink
                 </span>
