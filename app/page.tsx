@@ -58,7 +58,7 @@ export default function Page() {
           }}></div>
         </div>
 
-        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-16 pb-20 md:pt-24 md:pb-28">
+        <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-16 pb-8 md:pt-24 md:pb-12">
           <div className="max-w-5xl mx-auto">
             {/* Main Headline - Healthcare Professional */}
             <div className="text-center space-y-6 mb-12">
@@ -150,7 +150,7 @@ export default function Page() {
       </section>
 
       {/* Country Paths Section */}
-      <section className="relative bg-gradient-to-b from-gray-50 to-white py-12 md:py-16">
+      <section className="relative bg-gradient-to-b from-gray-50 to-white py-6 md:py-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <motion.div 
             className="text-center mb-12 space-y-4"
