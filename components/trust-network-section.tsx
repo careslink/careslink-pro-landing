@@ -9,37 +9,37 @@ export function TrustNetworkSection() {
     {
       title: "10,000+ Employers & Institutions Across 7 Countries",
       description: "Connect with a global network of healthcare leaders and employers to expand your professional opportunities.",
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed488bb9485585949d8df6_Faq-image-1.png"
+      image: "./faq_one.png"
     },
     {
       title: "5000+ Professionals Successfully Placed Globally",
       description: "We help you navigate licensure, relocation, and connect you with trusted resources for visa sponsorship and career transitions.",
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed488b74734780873821d5_Faq-image-2.png"
+      image: "./faq_two.png"
     },
     {
       title: "AI-Powered Career Building Engine",
       description: "Our AI Job Matching and Recommendation Engine connects you with roles tailored to your skills, ensuring 91% of members find opportunities within 1 month.",
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed488aade745d3ec305d68_Faq-image-3.png"
+      image: "./faq_three.png"
     },
     {
       title: "98% Satisfaction Rate Among Healthcare Professionals",
       description: "Healthcare professionals rely on CaresLink for expert guidance and meaningful networking opportunities that simplify career progression.",
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed488ad35dfdb9c7f69b43_Faq-image-4.png"
+      image: "./faq_four.png"
     },
     {
       title: "30% Faster Licensing and Relocation",
       description: "We simplify processes and connect you to essential resources, helping you relocate while growing your professional network",
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed488ac3ffa925f7c68998_Faq-image-5.png"
+      image: "./faq_five.png"
     },
     {
       title: "100+ Courses for Global Competency",
       description: "Gain certifications and skills to meet international healthcare standards while enhancing your professional profile.",
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed488ab9485585949d8d9f_Faq-image-6.png"
+      image: "./faq_six.png"
     },
     {
       title: "1:1 Consultations With Experts",
       description: "Get insights from leaders and entrepreneurs to overcome challenges and kickstart your healthcare ventures",
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed488b5f3cfb51e1438679_Faq-image-7.png"
+      image: "./faq_seven.png"
     }
   ]
 

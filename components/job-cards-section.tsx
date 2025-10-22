@@ -112,7 +112,7 @@ export function JobCardsSection() {
           <div className="p-6 flex-1 flex flex-col">
             <div className="grid grid-cols-2 gap-4 mt-auto">
               {/* Left Column - Blue Background with White Text */}
-              <div className="bg-[#0078c4] rounded-lg p-4 space-y-4">
+              <div className="bg-[#0078c4] rounded-lg p-4 space-y-4 flex flex-col justify-between min-h-[220px]">
                 {/* Salary */}
                 <div>
                   <p className="text-xs font-bold text-white uppercase tracking-wide mb-1">
@@ -145,19 +145,21 @@ export function JobCardsSection() {
               </div>
 
               {/* Right Column - Light Green Background with Dark Green Text */}
-              <div className="bg-green-50 rounded-lg p-4">
-                <p className="text-xs font-bold text-green-700 uppercase tracking-wide mb-3">
-                  Benefits
-                </p>
-                <div className="space-y-2">
-                  {job.benefits.map((benefit, idx) => (
-                    <div key={idx} className="flex items-center gap-2">
-                      <svg className="w-3 h-3 text-green-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                      </svg>
-                      <span className="text-sm text-green-800">{benefit}</span>
-                    </div>
-                  ))}
+              <div className="bg-green-50 rounded-lg p-4 flex flex-col justify-between min-h-[200px]">
+                <div>
+                  <p className="text-xs font-bold text-green-700 uppercase tracking-wide mb-3">
+                    Benefits
+                  </p>
+                  <div className="space-y-2">
+                    {job.benefits.map((benefit, idx) => (
+                      <div key={idx} className="flex items-center gap-2">
+                        <svg className="w-3 h-3 text-green-600 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                        </svg>
+                        <span className="text-sm text-green-800">{benefit}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

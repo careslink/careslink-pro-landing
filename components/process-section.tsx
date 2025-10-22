@@ -91,7 +91,7 @@ export function ProcessSection() {
             {/* Card */}
             <div className="relative bg-white rounded-2xl overflow-hidden border-2 border-gray-200 group-hover:border-[#0092ec] transition-all duration-300 group-hover:shadow-2xl group-hover:-translate-y-2 flex flex-col h-full">
               {/* Number Badge */}
-              <div className="absolute top-4 right-4 sm:top-6 sm:right-6 w-12 h-12 sm:w-16 sm:h-16 bg-gradient-to-br from-[#0092ec] to-[#0078c4] text-white rounded-xl sm:rounded-2xl flex items-center justify-center text-xl sm:text-2xl font-bold shadow-lg z-20 group-hover:scale-110 transition-transform duration-300">
+              <div className="absolute top-4 right-4 sm:top-6 sm:right-6 w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-br from-[#0092ec] to-[#0078c4] text-white rounded-lg sm:rounded-xl flex items-center justify-center text-lg sm:text-xl font-bold shadow-lg z-20 group-hover:scale-110 transition-transform duration-300">
                 {step.number}
               </div>
 

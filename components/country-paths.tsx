@@ -29,7 +29,7 @@ export function CountryPaths() {
       image: "./explore_more.jpg",
       title: "Explore More",
       flag: "🌍",
-      description: "Discover opportunities in UK, UAE, Germany, Japan, and more countries worldwide.",
+      description: "Discover opportunities in UK, Germany, Brazil, India, and more countries worldwide.",
       link: "https://careslink.com/career-roadmaps",
       isExplore: true
     }
@@ -64,7 +64,7 @@ export function CountryPaths() {
             <img 
               src={path.image} 
               alt={path.title}
-              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              className={`w-full h-full ${path.isExplore ? 'object-contain' : 'object-cover'} group-hover:scale-105 transition-transform duration-500`}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
             

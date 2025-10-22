@@ -5,28 +5,28 @@ import { motion } from "framer-motion"
 export function EssentialCourses() {
   const courses = [
     {
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed0a2de3903092acb4802e_Core%20Certifications.png",
+      image: "course_one.png",
       title: "Core Certifications",
       description: "For: Aspiring professionals building caregiving expertise.",
       link: "https://careslink.com/nursing-certifications-credentials/certification-courses",
       buttonText: "30+ Certifications"
     },
     {
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed0a2eca646d746620f6d9_NCLEX%20Training.png",
+      image: "course_two.png",
       title: "NCLEX Training",
       description: "For: Nurses preparing for international licensure.",
       link: "https://careslink.com/nursing-certifications-credentials/continuing-nclex",
       buttonText: "20+ Programs"
     },
     {
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed0a2d452724163045b532_Continuous%20Education%20Credits.png",
+      image: "course_three.png",
       title: "Continuous Education",
       description: "For: Licensed professionals staying up-to-date with healthcare",
       link: "https://careslink.com/nursing-certifications-credentials/continuing-education-courses",
       buttonText: "20+ Courses"
     },
     {
-      image: "https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67ed0a2edf05f9c9856fb2cc_Language%20Proficiency.png",
+      image: "course_four.png",
       title: "Language Proficiency",
       subtitle: "PTE, OET, IELTS",
       description: "For: Professionals seeking roles in English-speaking countries.",

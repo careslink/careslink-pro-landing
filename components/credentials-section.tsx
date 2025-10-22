@@ -61,7 +61,7 @@ export function CredentialsSection() {
           transition={{ duration: 0.6 }}
         >
           <img 
-            src="https://cdn.prod.website-files.com/67aca5948cce33c6fba69ac2/67e8571ab85d1d2357316c86_Credentails-cover-image.svg"
+            src="cred_section.svg"
             alt="Credentials"
             className="w-full rounded-xl"
           />
